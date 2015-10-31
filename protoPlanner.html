@@ -1,0 +1,99 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>B-schoen.GitHub.io by b-schoen</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/github-light.css">
+    <meta name="viewport" content="width=device-width">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Bronson Schoen</h1>
+        <p></p>
+
+        <p class="view"><a href="index.html">Experience</a></p>
+
+        <p class="view"><a href="projects.html">Projects</a></p>
+
+        <!--<p class="view"><a href="Bronson_Schoen_Resume.pdf">Resume</a></p>-->
+
+        <p class="view">Everything from little experiments to work history.</p>
+
+      </header>
+      <section>
+
+<h1>Planning and Scheduling Module</h1>
+
+<h3>
+<a id="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages" aria-hidden="true"><span class="octicon octicon-link"></span></a>What It Does:</h3>
+
+<p>One of the first modules I wrote for the satellite. Responsible for: </p>
+<ul> 
+  <li>Viewing and creating schedules for equipment activation on the satellite</li>
+  <li>Constraint checking</li>
+  <li>Transmitting</li>
+  <li>Interacting with database</li>
+</ul>
+
+<h3>First Draft</h3>
+
+<p>The first draft was creating a loose prototype in Visual C# to figure out which features the team did/didn't want.</p>
+
+
+<img src="ProtoPlanner.png" alt="Proto Planner Pic" style="width:550px;height:328px;">
+<br></br>
+
+<h3>Moving to Python and PyQT</h3>
+
+<p>Once features were solidified, I build an early version in Python and PyQt (the common language framework for most of the subsystem software). Features include: </p>
+
+<ul> 
+  <li>All activity and input/output logged in the console view.</li>
+</ul>
+
+<img src="Planning_Scheduling_Screenshot_1.png" alt="Planner Pic 1" style="width:550px;height:450px;">
+<br></br>
+
+<ul>
+  <li>Create activities, which are first constraint checked.</li>
+</ul>
+<img src="Planning_Scheduling_Screenshot_2.png" alt="Planner Pic 2" style="width:550px;height:450px;">
+<br></br>
+
+<ul>
+  <li>Ability to override constraints</li>
+</ul>
+
+<img src="Planning_Scheduling_Screenshot_3.png" alt="Planner Pic 3" style="width:550px;height:450px;">
+<br></br>
+
+<ul>
+  <li>Drag activities around to construct schedule (restrained to the horizontal line they are on)</li>
+  <li>Schedule is automatically rechecked for constraint violations after user change</li>
+</ul>
+
+<img src="Planning_Scheduling_Screenshot_4.png" alt="Planner Pic 4" style="width:550px;height:450px;">
+<br></br>
+
+
+<!--<img src="wins_pic.png" alt="Wins Picture" style="width:700px;height:228px;">
+<br></br>
+<br></br> -->
+
+      </section>
+      <footer>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="javascripts/scale.fix.js"></script>
+    
+  </body>
+</html>
+
